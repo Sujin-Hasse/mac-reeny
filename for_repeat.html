@@ -15,14 +15,26 @@
 <script>
     // 반복문
     // 별 그리기
-    for(let i=0; i<6;  i++){ //조건문이 참이면 반복
-      document.write("*");
-      documnet.write("<br>");
-}
+
+for(let i = 0; i < 5; i++)  {
+    // i<5 이면 안에 있는 for문과 <br>을 실행하고 i에 1을 추가 해라
+    for(let j = 0; j < 5; j++) {
+      document.write('*');
+      // j < 5 이면 * 하나 그리고 j에 1을 추가해라
+    }
+    // ★ 중첩된 for문이 다 끝이 나야 밑줄로 넘어감 ★
+    
+    document.write('<br>');
+
+  }
+
+  for (let i=1; i<=5; i++){
+    for (let j=1; j<=i; j++){
+        document.write('*')
+      }
+      document.write('<br>')
+    }
     
 </script>
-
-
-
 </body>
 </html>
