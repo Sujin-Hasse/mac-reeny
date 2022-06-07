@@ -1,4 +1,5 @@
-<script>
+
+  // 조건문
   // 불러주는 정수 두개가 입력으로 들어오면 큰수 - 작은수의 값을 출력하세요
     const a = prompt("첫번째 정수를 입력해주세요");  //입력 
     const b = prompt("두번째 정수를 입력해주세요");  //입력
@@ -9,4 +10,6 @@
     else if (Number(a)<Number(b)){
       alert(Number(b) - Number(a));
     } 
-  </script>
+
+    // 반복문
+    
